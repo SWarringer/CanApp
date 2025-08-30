@@ -1,6 +1,7 @@
-[package]
-name = "CanApp"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
+[workspace]
+members = [
+    "crates/backbone",
+    "crates/drivers",
+    "crates/app",
+    "crates/cli",
+]
